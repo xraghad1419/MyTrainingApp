@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TrainingOfferPage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar4"
+                android:layout_width="425dp"
+                android:layout_height="111dp"
+                android:background="?attr/colorPrimary"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:gravity="center|top"
+                android:text="Training Offer "
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginTop="-63dp"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                tools:layout_editor_absoluteY="866dp" />
+
+
+            <TextView
+                android:id="@+id/textVision"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="13dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:ems="16"
+                android:text="Offer Name"
+                android:textAlignment="gravity"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/etFullName"
+                android:layout_width="320dp"
+                android:layout_height="44dp"
+                android:layout_marginBottom="15dp"
+                android:ems="10"
+                android:paddingLeft="5dp"
+                android:background="#4B818181"
+                android:backgroundTint="#C6C9CC"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textStart"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginRight="10dp"
+                android:ems="16"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Start Date"
+                android:textAlignment="gravity"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/editTextStartDate"
+                android:layout_width="320dp"
+                android:layout_height="44dp"
+                android:layout_marginBottom="15dp"
+                android:ems="10"
+                android:paddingLeft="5dp"
+                android:background="#4B818181"
+                android:backgroundTint="#C6C9CC"
+                android:inputType="date"
+                tools:ignore="MissingConstraints" />
+            <TextView
+                android:id="@+id/textEnd"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginRight="10dp"
+                android:ems="16"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="End Date"
+                android:textAlignment="gravity"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/editTextEndDate"
+                android:layout_width="320dp"
+                android:layout_height="44dp"
+                android:layout_marginBottom="15dp"
+                android:ems="10"
+                android:inputType="date"
+                android:paddingLeft="5dp"
+                android:background="#4B818181"
+                android:backgroundTint="#C6C9CC"
+                tools:ignore="MissingConstraints" />
+            <TextView
+                android:id="@+id/textCity"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginRight="10dp"
+                android:ems="16"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="City"
+                android:textAlignment="gravity"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/etCityOffer"
+                android:layout_width="320dp"
+                android:layout_height="44dp"
+                android:layout_marginBottom="15dp"
+                android:ems="10"
+                android:paddingLeft="5dp"
+                android:background="#4B818181"
+                android:backgroundTint="#C6C9CC"
+                android:inputType="textPersonName" />
+            <TextView
+                android:id="@+id/textGBA"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginRight="10dp"
+                android:ems="16"
+                android:text="Require GPA"
+                android:textAlignment="gravity"
+                android:textSize="16sp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/etGPA_Offer"
+                android:layout_width="320dp"
+                android:layout_height="44dp"
+                android:layout_marginBottom="15dp"
+                android:ems="10"
+                android:paddingLeft="5dp"
+                android:background="#4B818181"
+                android:backgroundTint="#C6C9CC"
+                android:inputType="textPersonName" />
+            <TextView
+                android:id="@+id/textMajor"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginRight="10dp"
+                android:ems="16"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Major"
+                android:textAlignment="gravity"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_Major"
+                android:layout_width="320dp"
+                android:layout_height="44dp"
+                android:layout_marginBottom="15dp"
+                android:ems="10"
+                android:paddingLeft="5dp"
+                android:background="#4B818181"
+                android:backgroundTint="#C6C9CC"
+                android:inputType="textEmailAddress" />
+
+
+            <TextView
+                android:id="@+id/textNationality"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginRight="10dp"
+                android:ems="16"
+                android:text="Language"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textAlignment="gravity"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/etNationality"
+                android:layout_width="320dp"
+                android:layout_height="44dp"
+                android:layout_marginBottom="15dp"
+                android:ems="10"
+                android:paddingLeft="5dp"
+                android:background="#4B818181"
+                android:backgroundTint="#C6C9CC"
+                android:inputType="textEmailAddress" />
+            <TextView
+                android:id="@+id/textDescription"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginRight="10dp"
+                android:ems="16"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Offer Description"
+                android:textAlignment="gravity"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/etDes"
+                android:layout_width="320dp"
+                android:layout_height="120dp"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:paddingLeft="5dp"
+                android:background="#4B818181"
+                android:backgroundTint="#C6C9CC"
+                android:inputType="textMultiLine" />
+            <TextView
+                android:id="@+id/textEligibility"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginRight="10dp"
+                android:ems="16"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Eligibility"
+                android:textAlignment="gravity"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/etEligibility"
+                android:layout_width="320dp"
+                android:layout_height="120dp"
+                android:layout_marginBottom="15dp"
+                android:ems="10"
+                android:paddingLeft="5dp"
+                android:background="#4B818181"
+                android:backgroundTint="#C6C9CC"
+                android:inputType="textMultiLine" />
+            <TextView
+                android:id="@+id/textBenefits"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginRight="10dp"
+                android:ems="16"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Benefits"
+                android:textAlignment="gravity"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/etBenefits"
+                android:layout_width="320dp"
+                android:layout_height="120dp"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:paddingLeft="5dp"
+                android:background="#4B818181"
+                android:backgroundTint="#C6C9CC"
+                android:inputType="textMultiLine" />
+
+            <TextView
+                android:id="@+id/linkoffer"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginRight="10dp"
+                android:ems="16"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Offer Link"
+                android:textAlignment="gravity"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <EditText
+                android:id="@+id/etlinkoffer"
+                android:layout_width="320dp"
+                android:layout_height="45dp"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:paddingLeft="5dp"
+                android:background="#4B818181"
+                android:backgroundTint="#C6C9CC"
+                android:inputType="textMultiLine" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btSaveOffer"
+                    android:layout_width="111dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="15dp"
+                    android:text="Save" />
+
+                <Button
+                    android:id="@+id/btCancelOffer"
+                    android:layout_width="103dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:text="Cancel" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyTraining" >
+        <activity
+            android:name=".Profile_page"
+            android:exported="true" />
+        <activity
+            android:name=".Offers_View"
+            android:exported="true" />
+        <activity
+            android:name=".Training_Details"
+            android:exported="true" />
+        <activity
+            android:name=".TrainingOfferPage"
+            android:exported="true" />
+        <activity
+            android:name=".Forgot_Password"
+            android:exported="true" />
+        <activity
+            android:name=".Applicant_page"
+            android:exported="true" />
+        <activity
+            android:name=".Org_Page"
+            android:exported="true" />
+        <activity
+            android:name=".Org_profilePage"
+            android:exported="true" />
+        <activity
+            android:name=".CV_Form"
+            android:exported="true" />
+        <activity
+            android:name=".Home_page"
+            android:exported="true" />
+        <activity
+            android:name=".Org_info"
+            android:exported="true" />
+        <activity
+            android:name=".SignIN"
+            android:exported="true" />
+        <activity
+            android:name=".Recomended_Page"
+            android:exported="true" />
+        <activity
+            android:name=".Reviews_Page"
+            android:exported="true" />
+        <activity
+            android:name=".view_applicant_cv"
+            android:exported="true" />
+        <activity
+            android:name=".Applicant_view"
+            android:exported="true" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Screen_splash"
+            android:exported="true" />
+        <activity
+            android:name=".Training_Details_By_Org"
+            android:exported="true" />
+        <activity
+            android:name=".Applied_Page"
+            android:exported="true" />
+        <activity
+            android:name=".Applied_Applicants"
+            android:exported="true" />
+        <activity
+            android:name=".Applied_CV"
+            android:exported="true" />
+        <activity
+            android:name=".View_Offers_Reviews"
+            android:exported="true" />
+        <activity
+            android:name=".Admin_homePage"
+            android:exported="true" />
+        <activity
+            android:name=".Admin_SignIn_page"
+            android:exported="true" />
+        <activity
+            android:name=".Admin_view_Users"
+            android:exported="true" />
+        <activity
+            android:name=".Admin_view_CV"
+            android:exported="true" />
+        <activity
+            android:name=".Admin_view_Profile"
+            android:exported="true" />
+        <activity
+            android:name=".Applied_Training_Details"
+            android:exported="true" />
+        <activity
+            android:name=".offer_page"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CV_Form">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-92dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar4"
+                android:layout_width="425dp"
+                android:layout_height="111dp"
+                android:background="?attr/colorPrimary"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:layout_marginTop="-63dp"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center|top"
+                android:text="Applicant CV "
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                tools:layout_editor_absoluteY="866dp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageApplicant"
+                android:layout_width="230dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="29dp"
+                android:background="#CAB8B8"
+                android:backgroundTint="#FFFFFF"
+                android:src="@drawable/account_admin"
+                app:civ_border_color="#8F8B8B"
+                app:civ_border_width="1dp" />
+
+
+            <TextView
+                android:id="@+id/textFName"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginTop="19dp"
+                android:layout_marginRight="-3dp"
+                android:ems="16"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Full Name"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etFullNameCV"
+                android:layout_width="330dp"
+                android:layout_height="44dp"
+                android:layout_marginBottom="15dp"
+                android:background="#4B681414"
+                android:backgroundTint="#C6C9CC"
+                android:drawableLeft="@drawable/ic_baseline_person_24"
+                android:ems="10"
+                android:hint="Enter Your Full Name"
+                android:inputType="textPersonName"
+                android:paddingLeft="5dp"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginTop="-5dp"
+                android:layout_marginRight="-3dp"
+                android:ems="16"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Email"
+                android:textAlignment="gravity"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etEmailCV"
+                android:layout_width="330dp"
+                android:layout_height="44dp"
+                android:layout_marginBottom="15dp"
+                android:background="#4B818181"
+                android:backgroundTint="#C6C9CC"
+                android:drawableLeft="@drawable/ic_baseline_email_24"
+                android:ems="10"
+                android:hint="Enter Email"
+                android:inputType="textPersonName"
+                android:paddingLeft="5dp"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textDate"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginTop="-5dp"
+                android:layout_marginRight="-3dp"
+                android:ems="16"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Date Of Birth"
+                android:textAlignment="gravity"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextDate"
+                android:layout_width="330dp"
+                android:layout_height="44dp"
+                android:layout_marginBottom="15dp"
+                android:background="#4B818181"
+                android:backgroundTint="#C6C9CC"
+                android:drawableLeft="@drawable/ic_baseline_date_range_24"
+                android:ems="10"
+                android:hint="Enter Date Of Birth"
+                android:inputType="date"
+                android:paddingLeft="5dp"
+                android:textSize="14sp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/textCity"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginTop="-5dp"
+                android:layout_marginRight="-3dp"
+                android:ems="16"
+                android:text="City"
+                android:textAlignment="gravity"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etCityCV"
+                android:layout_width="330dp"
+                android:layout_height="44dp"
+                android:layout_marginBottom="15dp"
+                android:background="#4B818181"
+                android:backgroundTint="#C6C9CC"
+                android:drawableLeft="@drawable/ic_baseline_add_location_24"
+                android:ems="10"
+                android:hint="Enter City, State"
+                android:inputType="textPersonName"
+                android:paddingLeft="5dp"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginTop="-5dp"
+                android:layout_marginRight="-3dp"
+                android:ems="16"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Phone Number"
+                android:textAlignment="gravity"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etPhoneCV"
+                android:layout_width="330dp"
+                android:layout_height="44dp"
+                android:layout_marginBottom="15dp"
+                android:background="#4B818181"
+                android:backgroundTint="#C6C9CC"
+                android:drawableLeft="@drawable/ic_baseline_phone_paused_24"
+                android:hint="Enter Your Phone Number"
+                android:inputType="textPhonetic"
+                android:paddingLeft="5dp"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textMajor"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginTop="-5dp"
+                android:layout_marginRight="-3dp"
+                android:ems="16"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Major"
+                android:textAlignment="gravity"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/tMajor"
+                android:layout_width="330dp"
+                android:layout_height="44dp"
+                android:layout_marginBottom="15dp"
+                android:background="#4B818181"
+                android:backgroundTint="#C6C9CC"
+                android:drawableLeft="@drawable/ic_baseline_menu_book_24"
+                android:hint=" Enter Major"
+                android:inputType="textPhonetic"
+                android:paddingLeft="5dp"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textGBA"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginTop="-7dp"
+                android:layout_marginRight="-3dp"
+                android:ems="16"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="GBA"
+                android:textAlignment="gravity"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etGPA_CV"
+                android:layout_width="330dp"
+                android:layout_height="44dp"
+                android:layout_marginBottom="15dp"
+                android:background="#4B818181"
+                android:backgroundTint="#C6C9CC"
+                android:drawableLeft="@drawable/ic_baseline_grade_24"
+                android:ems="10"
+                android:hint="Enter Your GPA"
+                android:inputType="numberDecimal"
+                android:paddingLeft="5dp"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textNa"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginTop="-5dp"
+                android:layout_marginRight="-3dp"
+                android:ems="16"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Language"
+                android:textAlignment="gravity"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etNationality"
+                android:layout_width="330dp"
+                android:layout_height="44dp"
+                android:layout_marginBottom="15dp"
+                android:background="#4B818181"
+                android:backgroundTint="#C6C9CC"
+                android:drawableLeft="@drawable/ic_baseline_map_24"
+                android:ems="10"
+                android:hint="Enter Language"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="5dp"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textSkills"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginTop="-5dp"
+                android:layout_marginRight="-3dp"
+                android:ems="16"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Skills"
+                android:textAlignment="gravity"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etSkills"
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginBottom="15dp"
+                android:background="#4B818181"
+                android:backgroundTint="#C6C9CC"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:paddingLeft="5dp"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textInterests"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginTop="-5dp"
+                android:layout_marginRight="-3dp"
+                android:ems="16"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Interests"
+                android:textAlignment="gravity"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etInterest"
+                android:layout_width="330dp"
+                android:layout_height="120dp"
+                android:layout_marginBottom="20dp"
+                android:background="#4B818181"
+                android:backgroundTint="#C6C9CC"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:paddingLeft="5dp"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btSaveCV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="15dp"
+                    android:text="Save" />
+
+                <Button
+                    android:id="@+id/btCancelCV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:text="Cancel" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

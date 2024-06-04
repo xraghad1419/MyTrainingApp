@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Offers_View">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar4"
+            android:layout_width="425dp"
+            android:layout_height="90dp"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme" />
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchView"
+            android:layout_width="313dp"
+            android:layout_height="52dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="110dp"
+            android:layout_marginEnd="55dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/search_bc"
+            android:backgroundTint="#E7EAE9"
+            android:elevation="4dp"
+            android:padding="10dp"
+            app:defaultQueryHint="Search"
+            app:queryHint="Search">
+
+        </androidx.appcompat.widget.SearchView>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_marginLeft="118dp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Users Accounts "
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteY="866dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_users"
+            android:layout_width="402dp"
+            android:layout_height="500dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="180dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" />
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,81 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp"
+    app:cardUseCompatPadding="true"
+    android:elevation="8dp"
+    app:cardElevation="18dp"
+    app:cardBackgroundColor="#F7EEF1F0"
+    app:cardMaxElevation="1dp"
+    android:layout_marginBottom="-20dp"
+    app:cardPreventCornerOverlap="true">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:paddingTop="15dp"
+        >
+
+
+        <ImageView
+            android:id="@+id/image_View"
+            android:layout_width="63dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/ic_baseline_account_circle_24" />
+
+        <TextView
+            android:id="@+id/name_a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="Name"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="225dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:gravity="right"
+            android:text="Date"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            style="@android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="55dp"
+            android:isIndicator="true"
+            android:max="5"
+            android:scaleX=".6"
+            android:scaleY=".6"
+            android:theme="@style/RatingBar"
+            android:transformPivotX="0dp"
+            android:transformPivotY="0dp" />
+
+
+        <TextView
+            android:id="@+id/app_rev"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="90dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="Review"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

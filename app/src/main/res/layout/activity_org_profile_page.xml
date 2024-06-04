@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Org_profilePage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-54dp"
+        tools:layout_editor_absoluteY="-47dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="425dp"
+                android:layout_height="111dp"
+                android:background="?attr/colorPrimary"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageOrg"
+                android:layout_width="137dp"
+                android:layout_height="124dp"
+                android:layout_marginTop="29dp"
+                android:background="#E3E2E2"
+                android:backgroundTint="#FFFFFF"
+                android:src="@drawable/account_admin"
+                app:civ_border_color="#C6C9CC"
+                app:civ_border_width="1dp" />
+
+            <TextView
+                android:id="@+id/textName"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginTop="19dp"
+                android:layout_marginRight="35dp"
+                android:ems="14"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Organization Name"
+                android:textAlignment="gravity"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etOrgNum"
+                android:layout_width="300dp"
+                android:layout_height="44dp"
+                android:layout_marginBottom="15dp"
+                android:background="#4B818181"
+                android:backgroundTint="#C6C9CC"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:paddingLeft="5dp"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/textVision"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginTop="-5dp"
+                android:layout_marginRight="35dp"
+                android:ems="14"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Vision"
+                android:textAlignment="gravity"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etVision"
+                android:layout_width="300dp"
+                android:layout_height="120dp"
+                android:layout_marginBottom="15dp"
+                android:background="#4B818181"
+                android:backgroundTint="#C6C9CC"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:paddingLeft="5dp"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/textBrief"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginTop="-5dp"
+                android:layout_marginRight="35dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:ems="14"
+                android:text="Brief"
+                android:textAlignment="gravity"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etBrief"
+                android:layout_width="300dp"
+                android:layout_height="44dp"
+                android:layout_marginBottom="15dp"
+                android:background="#4B818181"
+                android:backgroundTint="#C6C9CC"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:paddingLeft="5dp"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/twitter"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginTop="-5dp"
+                android:layout_marginRight="35dp"
+                android:ems="14"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Twitter"
+                android:textAlignment="gravity"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etTwitter"
+                android:layout_width="300dp"
+                android:layout_height="44dp"
+                android:layout_marginBottom="15dp"
+                android:background="#4B818181"
+                android:backgroundTint="#C6C9CC"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:paddingLeft="5dp"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/linkedIN"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginTop="-5dp"
+                android:layout_marginRight="35dp"
+                android:ems="14"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="LinkedIn"
+                android:textAlignment="gravity"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etLinkedIn"
+                android:layout_width="300dp"
+                android:layout_height="44dp"
+                android:layout_marginBottom="15dp"
+                android:background="#4B818181"
+                android:backgroundTint="#C6C9CC"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:paddingLeft="5dp"
+                android:textSize="14sp" />
+            <TextView
+                android:id="@+id/email_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginTop="-5dp"
+                android:layout_marginRight="35dp"
+                android:ems="14"
+                android:text="Email"
+                android:fontFamily="sans-serif-condensed-light"
+                android:textAlignment="gravity"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etEmailOrg"
+                android:layout_width="300dp"
+                android:layout_height="44dp"
+                android:layout_marginBottom="15dp"
+                android:background="#4B818181"
+                android:backgroundTint="#C6C9CC"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:paddingLeft="5dp"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tele"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginTop="-5dp"
+                android:layout_marginRight="35dp"
+                android:ems="14"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Telephone"
+                android:textAlignment="gravity"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etTelePhoneOrg"
+                android:layout_width="300dp"
+                android:layout_height="44dp"
+                android:layout_marginBottom="15dp"
+                android:background="#4B818181"
+                android:backgroundTint="#C6C9CC"
+                android:ems="10"
+                android:inputType="number"
+                android:paddingLeft="5dp"
+                android:textSize="14sp" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btSaveProfile"
+                    android:layout_width="111dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="15dp"
+                    android:text="Save" />
+
+                <Button
+                    android:id="@+id/btCancelProfile"
+                    android:layout_width="113dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:text="Cancel" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="81dp"
+                android:layout_marginTop="-1000dp"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:text="Organization Profile"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

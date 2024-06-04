@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="24dp"
+    app:cardUseCompatPadding="true"
+    android:elevation="6dp"
+    app:cardElevation="10dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardMaxElevation="1dp"
+    app:cardPreventCornerOverlap="true"
+    tools:ignore="MissingDefaultResource">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:padding="15dp">
+
+
+        <ImageView
+            android:id="@+id/image_org"
+            android:layout_width="83dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="270dp"
+            android:src="@drawable/delete_icom" />
+
+        <Button
+            android:id="@+id/delete_users"
+            android:layout_width="78dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="70dp"
+            android:backgroundTint="#7AC8C1"
+            android:text="Delete"
+            android:textColor="#000000"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-310dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/image_org"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="User name"
+            android:textColor="#000000"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/user_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-310dp"
+            android:layout_marginTop="45dp"
+            android:layout_toRightOf="@+id/image_org"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="Email"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/user_pass"
+            android:layout_width="262dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="-310dp"
+            android:layout_marginTop="75dp"
+            android:layout_toRightOf="@+id/image_org"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="Password"
+            android:textSize="22dp" />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

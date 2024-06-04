@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">MyTraining</string>
+
+    <string name="select"> </string>
+
+    <string-array name="majors">
+        <item>Select Major</item>
+        <item>Accounting</item>
+        <item>Business Administration</item>
+        <item>Chemistry</item>
+        <item>Computer Science</item>
+        <item>Cyber Security</item>
+        <item>Engineering</item>
+        <item>Finance</item>
+        <item>Human Resource</item>
+        <item>Information Systems</item>
+        <item>Information Technology</item>
+        <item>Marketing</item>
+        <item>Math</item>
+        <item>Medicine</item>
+        <item>Management Information System</item>
+        <item>Nursing</item>
+        <item>Pharmacy</item>
+        <item>Physics</item>
+        <item>Statistics</item>
+        <item>Software Engineering</item>
+    </string-array>
+</resources>

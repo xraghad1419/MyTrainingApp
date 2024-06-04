@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <com.google.android.material.bottomnavigation.BottomNavigationView
+      android:id="@+id/bottom_navigation"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      app:itemBackground="@color/white"
+      app:itemIconTint="@drawable/selector"
+      app:itemTextColor="@drawable/selector"
+      app:menu="@menu/menu3"
+      tools:ignore="MissingConstraints" />
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="#FFFFFF">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+
+      <androidx.appcompat.widget.Toolbar
+          android:id="@+id/toolbar4"
+          android:layout_width="425dp"
+          android:layout_height="90dp"
+          android:background="?attr/colorPrimary"
+          android:minHeight="?attr/actionBarSize"
+          android:theme="?attr/actionBarTheme" />
+
+
+      <TextView
+          android:id="@+id/textView3"
+          android:layout_width="wrap_content"
+          android:layout_height="48dp"
+          android:layout_marginLeft="90dp"
+          android:layout_marginTop="-70dp"
+          android:fontFamily="sans-serif-condensed"
+          android:gravity="center|top"
+          android:text="Organization Profile "
+          android:textColor="#FFFFFF"
+          android:textSize="30sp" />
+
+      <TextView
+          android:id="@+id/Company_name"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="89dp"
+          android:backgroundTint="#6DB0BCBB"
+          android:fontFamily="sans-serif-condensed"
+          android:gravity="center|top"
+          android:text="Company Name"
+          android:textColor="#131C1B"
+          android:textSize="24sp"
+          android:textStyle="bold" />
+
+      <View
+          android:layout_width="300dp"
+          android:layout_height="3dp"
+          android:layout_marginLeft="50dp"
+          android:layout_marginTop="5dp"
+          android:background="#C4EAE9E9" />
+
+      <ImageView
+          android:id="@+id/imageView7"
+          android:layout_width="82dp"
+          android:layout_height="83dp"
+          android:layout_marginLeft="160dp"
+          android:layout_marginTop="20dp"
+          app:srcCompat="@drawable/picture" />
+
+      <TextView
+          android:id="@+id/textView4"
+          android:layout_width="110dp"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="150dp"
+          android:layout_marginTop="6dp"
+          android:fontFamily="sans-serif-condensed-light"
+          android:gravity="center"
+          android:text="Our Vision"
+          android:textColor="#009688"
+          android:textSize="20sp"
+          android:textStyle="bold|italic" />
+
+      <TextView
+          android:id="@+id/Vision_info"
+          android:layout_width="260dp"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="70dp"
+          android:layout_marginTop="3dp"
+          android:ems="10"
+          android:fontFamily="sans-serif-condensed-light"
+          android:gravity="center"
+          android:textColor="#353737"
+          android:textSize="16sp" />
+
+      <View
+          android:layout_width="300dp"
+          android:layout_height="3dp"
+          android:layout_marginLeft="50dp"
+          android:layout_marginTop="5dp"
+          android:background="#C4EAE9E9" />
+
+      <ImageView
+          android:id="@+id/imageView8"
+          android:layout_width="82dp"
+          android:layout_height="83dp"
+          android:layout_marginLeft="160dp"
+          android:layout_marginTop="20dp"
+          android:background="#2DBABCBB"
+          android:backgroundTint="#2DBABCBB"
+          app:srcCompat="@drawable/picture" />
+
+      <TextView
+          android:id="@+id/textView5"
+          android:layout_width="110dp"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="150dp"
+          android:layout_marginTop="6dp"
+          android:fontFamily="sans-serif-condensed-light"
+          android:gravity="center"
+          android:text="Brief  "
+          android:textColor="#009688"
+          android:textSize="20sp"
+          android:textStyle="bold|italic" />
+
+      <TextView
+          android:id="@+id/Brief_info"
+          android:layout_width="260dp"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="70dp"
+          android:layout_marginTop="3dp"
+          android:ems="10"
+          android:fontFamily="sans-serif-condensed-light"
+          android:gravity="center"
+          android:textColor="#353737"
+          android:textSize="16sp" />
+
+      <View
+          android:layout_width="300dp"
+          android:layout_height="3dp"
+          android:layout_marginLeft="50dp"
+          android:layout_marginTop="5dp"
+          android:background="#C4EAE9E9" />
+
+      <ImageView
+          android:id="@+id/imageView9"
+          android:layout_width="82dp"
+          android:layout_height="83dp"
+          android:layout_marginLeft="160dp"
+          android:layout_marginTop="20dp"
+          app:srcCompat="@drawable/picture" />
+
+      <TextView
+          android:id="@+id/textView6"
+          android:layout_width="110dp"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="150dp"
+          android:layout_marginTop="3dp"
+          android:fontFamily="sans-serif-condensed-light"
+          android:gravity="center"
+          android:text="Contact Us"
+          android:textColor="#009688"
+          android:textSize="20sp"
+          android:textStyle="bold|italic" />
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="110dp"
+          android:layout_marginTop="-20dp"
+          android:gravity="center"
+          android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/twitter_info"
+            android:layout_width="30dp"
+            android:layout_height="45dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/twitter" />
+
+        <ImageView
+            android:id="@+id/telephone_info"
+            android:layout_width="30dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="10dp"
+            android:background="#FFFFFF"
+            app:srcCompat="@drawable/telephone" />
+
+        <ImageView
+            android:id="@+id/linkedin_info"
+            android:layout_width="30dp"
+            android:layout_height="45dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/link" />
+
+        <ImageView
+            android:id="@+id/email_info"
+            android:layout_width="30dp"
+            android:layout_height="45dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/email" />
+      </LinearLayout>
+
+
+    </LinearLayout>
+
+  </ScrollView>
+</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv"
+    android:layout_width="350dp"
+    android:layout_height="330dp"
+    android:layout_gravity="center"
+    android:layout_marginLeft="10dp"
+    android:elevation="9dp"
+    app:cardCornerRadius="30dp"
+    app:cardElevation="10dp"
+    app:cardUseCompatPadding="true">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="0dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:id="@+id/percentage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text=""
+            android:gravity="left"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:id="@+id/img_org_offer"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="90dp"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:scaleType="centerInside"
+            android:src="@mipmap/ic_launcher"
+            app:civ_border_color="#8B8E8E"
+            app:civ_border_width="4dp" />
+
+        <TextView
+            android:id="@+id/offer_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="160dp"
+            android:fontFamily="sans-serif-thin"
+            android:gravity="center"
+            android:text="Offer Name"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/view_Details"
+            android:layout_width="76dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="220dp"
+            android:background="#009688"
+            android:paddingTop="5dp"
+            android:text="View"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

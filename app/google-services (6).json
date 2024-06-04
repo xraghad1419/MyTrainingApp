@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "998991277048",
+    "project_id": "mytraining-c8f2a",
+    "storage_bucket": "mytraining-c8f2a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:998991277048:android:ba55877449929105fdc40d",
+        "android_client_info": {
+          "package_name": "com.example.mytraining"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB124Z-j2jlnthJVMKCWeRpt1hXwKBjjOw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

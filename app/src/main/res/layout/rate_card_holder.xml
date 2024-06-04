@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TrainingOfferPage">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar4"
+                android:layout_width="425dp"
+                android:layout_height="60dp"
+                android:background="?attr/colorPrimary"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme" />
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:gravity="center|top"
+                android:text="Rate Offer "
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginTop="-50dp"
+                android:textColor="#FFFFFF"
+                android:textSize="28sp"
+                tools:layout_editor_absoluteY="866dp" />
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:ems="14"
+                android:gravity="center"
+                android:text="Rate offer"
+                android:textAlignment="gravity"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:theme="@style/RatingBar"
+                style="@android:attr/ratingBarStyleSmall"
+                android:max="5"
+                android:scaleX=".6"
+                android:scaleY=".6"
+                android:transformPivotX="0dp"
+                android:transformPivotY="0dp"
+                />
+
+            <TextView
+                android:id="@+id/tx"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:ems="14"
+                android:gravity="center"
+                android:text=""
+                android:textAlignment="gravity"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textVision"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:ems="14"
+                android:gravity="center"
+                android:text="Review"
+                android:textAlignment="gravity"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/reviewBtn"
+                android:layout_width="350dp"
+                android:layout_height="150dp"
+                android:layout_marginBottom="15dp"
+                android:ems="10"
+                android:elevation="3dp"
+                android:gravity="left"
+                android:background="@drawable/round"
+                android:hint="Add review . . . . ."
+                android:inputType="textMultiLine"
+                android:paddingLeft="5dp" />
+
+            <TextView
+                android:id="@+id/t"
+                android:layout_width="380dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="30dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:ems="14"
+                android:gravity="center"
+                android:text="Do you want your name appear in reviews?"
+                android:textAlignment="gravity"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <CheckBox
+                android:id="@+id/check"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="60dp"
+                android:checked="false"
+                android:text="Show my name" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/submit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="15dp"
+                    android:text="Submit" />
+
+                <Button
+                    android:id="@+id/cancelBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:text="Cancel" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
